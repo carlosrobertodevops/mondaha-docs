@@ -5,7 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
+/*:root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -15,10 +15,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+}*/
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+/*[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -27,4 +27,111 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}*/
+
+/**
+ * ======================================================
+ * MONDAHA – Docusaurus / Infima Custom Theme
+ * ======================================================
+ * Fonte das cores: Design System Mondaha (imagem 2)
+ * Light + Dark Mode
+ */
+
+/* ======================================================
+ * LIGHT MODE
+ * ====================================================== */
+:root {
+  /* Brand */
+  --ifm-color-primary: #2b18ee;
+  --ifm-color-primary-dark: #2414c9;
+  --ifm-color-primary-darker: #1e10a6;
+  --ifm-color-primary-darkest: #160c78;
+  --ifm-color-primary-light: #4a39f2;
+  --ifm-color-primary-lighter: #6b5df5;
+  --ifm-color-primary-lightest: #8c83f8;
+
+  /* Secondary / Tertiary */
+  --ifm-color-secondary: #f26232;
+  --ifm-color-tertiary: #75c4e7;
+
+  /* Backgrounds */
+  --ifm-background-color: #f1f4f8;
+  --ifm-background-surface-color: #ffffff;
+
+  /* Text */
+  --ifm-font-color-base: #15161e;
+  --ifm-font-color-secondary: #606a85;
+
+  /* Accents */
+  --ifm-color-success: #048178;
+  --ifm-color-warning: #fcdc0c;
+  --ifm-color-danger: #ff5963;
+  --ifm-color-info: #75c4e7;
+
+  /* Code */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
+
+  /* Custom Mondaha */
+  --mondaha-overlay: #9a1d2428;
+  --mondaha-background: #1a1f24;
+  --mondaha-custom-1: #0c0f19;
+  --mondaha-custom-2: #8c19b3;
+  --mondaha-custom-3: #7a0366;
+
+  /* Neutral (Zinc) */
+  --mondaha-zinc-500: #71717a;
+  --mondaha-zinc-600: #52525b;
+  --mondaha-zinc-700: #3f3f46;
+  --mondaha-zinc-800: #27272a;
+  --mondaha-zinc-900: #18181b;
+}
+
+/* ======================================================
+ * DARK MODE
+ * ====================================================== */
+[data-theme="dark"] {
+  /* Brand */
+  --ifm-color-primary: #2b18ee;
+  --ifm-color-primary-dark: #2414c9;
+  --ifm-color-primary-darker: #1e10a6;
+  --ifm-color-primary-darkest: #160c78;
+  --ifm-color-primary-light: #4a39f2;
+  --ifm-color-primary-lighter: #6b5df5;
+  --ifm-color-primary-lightest: #8c83f8;
+
+  /* Secondary / Tertiary */
+  --ifm-color-secondary: #f26232;
+  --ifm-color-tertiary: #75c4e7;
+
+  /* Backgrounds */
+  --ifm-background-color: #15161e;
+  --ifm-background-surface-color: #1b1d27;
+
+  /* Text */
+  --ifm-font-color-base: #ffffff;
+  --ifm-font-color-secondary: #a9adc6;
+
+  /* Accents */
+  --ifm-color-success: #048178;
+  --ifm-color-warning: #fcdc0c;
+  --ifm-color-danger: #ff5963;
+  --ifm-color-info: #75c4e7;
+
+  /* Code */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.35);
+
+  /* Custom Mondaha */
+  --mondaha-overlay: #981d2428;
+  --mondaha-background: #1a1f24;
+  --mondaha-custom-1: #0c0f19;
+  --mondaha-custom-2: #8c19b3;
+  --mondaha-custom-3: #7a0366;
+
+  /* Neutral (Zinc) */
+  --mondaha-zinc-500: #71717a;
+  --mondaha-zinc-600: #52525b;
+  --mondaha-zinc-700: #3f3f46;
+  --mondaha-zinc-800: #27272a;
+  --mondaha-zinc-900: #18181b;
 }
